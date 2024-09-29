@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Lovers Unite!</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">DOG BREEDS</a></li>
+                <li><a href="#">DOG CARE</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-background">
+                <img src="https://www.morrisanimalfoundation.org/sites/default/files/styles/max_860x475/public/2024-08/MC_blog_grlsRFP_0807024_jk.jpg?h=f97871b5&itok=kbCxS3Gz" alt="Happy dog in the park" class="hero-background">
+            </div>
+            <div class="hero-content">
+                <left>
+                <h1>Welcome to Cynophile's Spot!!</h1>
+                <p>Where dog lovers come together and love for our furry friends</p>
+                <p>The best therapists have fur and paws...</p>
+                <button aria-label="Learn more about dog lovers unite">Learn More</button>
+                </left>
+            </div>
+        </section>
+        <section class="breeds">
+            <h2>Dog Breeds</h2>
+            <div class="breed-container">
+                <div class="breed">
+                    <img src="https://c1.wallpaperflare.com/preview/248/509/102/dog-labrador-light-brown-hundeportrait.jpg" alt="Labrador Retriever standing in a field" class="breed-image">
+                    <h3>Labrador Retriever</h3>
+                </div>
+                <div class="breed">
+                    <img src="https://cdn.britannica.com/84/232784-050-1769B477/Siberian-Husky-dog.jpg" alt="Husky" class="breed-image">
+                    <h3>Husky</h3>
+                </div>
+                <div class="breed">
+                    <img src="https://www.ukgermanshepherdrescue.co.uk/assets/images/mbr-3-1920x1285.jpeg" alt="German Shepherd" class="breed-image">
+                 <h3>German Shepherd</h3>
+                </div>
+            </div>
+        </section>
+         <section class="care">
+            <center>
+            <h2>Dog Care</h2>
+            <div class="care-container">
+                <div class="care-tip">
+                    <img src="https://media.istockphoto.com/id/1442143816/photo/woman-running-with-dog-to-workout-during-morning-walk.jpg?s=612x612&w=0&k=20&c=IkTInrAO2_vTf34z3b30S2rsxMSeVAhcGfX0ZtCOcYE=" alt="Person walking a dog in the park" class="care-image">
+                    <h3>Pet Walking</h3>
+                </div>
+                <div class="care-tip">
+                    <img src="https://t3.ftcdn.net/jpg/04/88/87/90/360_F_488879046_5A4wfLN1nXQoUK4ULkYS8ycc1TcQvFww.jpg" alt="Dog being groomed" class="care-image">
+                    <h3>Pet Grooming</h3>
+                </div>
+                <div class="care-tip">
+                    <img src="https://us.123rf.com/450wm/aleksandrfinch/aleksandrfinch2104/aleksandrfinch210400225/169027630-a-happy-red-haired-dog-in-a-white-bath-is-washing-under-the-shower-the-girls-hands-shower-the-german.jpg?ver=6" alt="Dog bathing" class="care-image">
+                    <h3>Pet Bathing</h3>
+                </div>
+            </center>
+            </div>
+        </section>
+        <center>
+            
+          <section class="submit">
+            <div class="form-container">
+              <h2>Submit Your Details</h2>
+              <form action="#" method="POST">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number:</label>
+                  <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email ID:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit">SUBMIT</button>
+              </form>
+            </div>
+          </section>
+          
+</center>
+    </main>
+</body>
+</html> 
