@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4d0505;
+    color: white;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin-right: 0px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 200px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover, nav a:focus {
+    color: rgb(132, 208, 223);
+}
+
+.hero {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-background {
+    width: 60%; /* Take up 60% of the width for the image */
+    height: 100%; /* Ensure it takes full height */
+}
+
+.hero-background img {
+    width: 2000%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without gaps */
+    border-radius: 0px;
+}
+
+.hero-content {
+    width: 1000%; /* Take up 40% of the width for the content */
+    color: white;
+    padding-left: 20px; /* Adjust for spacing on the left */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4d0505;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, button:focus {
+    background-color: rgb(5, 49, 68);
+}
+
+
+
+/* Breeds Section */
+.breeds h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.breed-container {
+    background-color: #94a7a8;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.breed {
+    width: 30%;
+    text-align: center;
+}
+
+.breed-image {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+
+/* Care Section */
+.care-container {
+    background-color: #94a7a8;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.care-tip {
+    width: 30%;
+    text-align: center;
+}
+
+.care-image {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+
+.submit {
+    background-color: #94a7a8;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #b9b5b0;
+    border: 1px solid rgb(190, 188, 188);
+    box-shadow: 0 0 10px rgb(4, 4, 4);
+  }
+  
+  .form-container h2 {
+    margin-top: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 500px;
+    height: 15px;
+    padding: 10px;
+    border: 1px solid #150b0b;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    width: 200px;
+    height: 40px;
+    background-color:#4d0505;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(5, 49, 68);
+  }
+  
